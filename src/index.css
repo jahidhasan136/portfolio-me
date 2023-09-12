@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #151515;
+  color: white;
+  height: 100%;
+}
+
+.CircularProgressbar .CircularProgressbar-path{
+  stroke: #F25714!important;
+}
+.CircularProgressbar .CircularProgressbar-text{
+  fill: #F25714!important;
+}
+.CircularProgressbar .CircularProgressbar-trail{
+  stroke: #222222!important;
+}
+
+.container {
+    @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
+  }
+
+.offcanvas.active{
+    left: 0;
+}
