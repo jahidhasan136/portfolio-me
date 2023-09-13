@@ -17,12 +17,12 @@ import 'react-circular-progressbar/dist/styles.css';
 
 const Skills = () => {
     return (
-        <div className="container mt-[120px]">
+        <div className="container mt-[120px]  bg-[#222222] p-5 rounded-lg">
             <h2 className="text-[45px] font-bold italic">Professional Skills</h2>
-            <div className='mt-20 flex justify-between'>
+            <div className='mt-10 flex justify-between p-10'>
                 <div>
                     <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Front-End Technologies</h3>
-                    <div className='grid grid-cols-4 gap-10
+                    <div className='grid grid-cols-3 gap-10
             '>
                         <div style={{ width: 100 }}>
                             <CircularProgressbarWithChildren value={96}>
@@ -90,39 +90,37 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className='border border-[#000]'></div>
                 <div>
-                    <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Front-End Technologies</h3>
+                    <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Soft Skills</h3>
                     <div className='grid grid-cols-2 gap-10'>
                         <div style={{ width: 100 }}>
                             <CircularProgressbarWithChildren value={66}>
-                                <img style={{ width: 30, marginBottom: 5 }} src={html} alt="html" />
                                 <div style={{ fontSize: 12 }}>
-                                    <strong>66%</strong>
+                                    <strong>Cretivity</strong>
                                 </div>
                             </CircularProgressbarWithChildren>
                         </div>
                         <div style={{ width: 100 }}>
                             <CircularProgressbarWithChildren value={66}>
-                                <img style={{ width: 30, marginBottom: 5 }} src={css} alt="html" />
                                 <div style={{ fontSize: 12 }}>
-                                    <strong>66%</strong>
+                                    <strong>Teamwork</strong>
                                 </div>
                             </CircularProgressbarWithChildren>
                         </div>
                         <div style={{ width: 100 }}>
                             <CircularProgressbarWithChildren value={66}>
-
-                                <img style={{ width: 30, marginBottom: 5 }} src={tailwindcss} alt="html" />
                                 <div style={{ fontSize: 12 }}>
-                                    <strong>66%</strong>
+                                    <strong>Interpersonal</strong>
                                 </div>
                             </CircularProgressbarWithChildren>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className='mt-14'>
-                <div className='flex justify-between'>
+            <div className='border border-[#000]'></div>
+            <div className='mt-0'>
+                <div className='flex justify-between p-10'>
                     <div>
                         <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Back-End Technologies</h3>
                         <div className='grid grid-cols-3 gap-10'>
@@ -152,6 +150,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='border border-[#000]'></div>
                     <div>
                         <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Tools</h3>
                         <div className='flex gap-10'>

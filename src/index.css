@@ -15,7 +15,7 @@ body{
   fill: #F25714!important;
 }
 .CircularProgressbar .CircularProgressbar-trail{
-  stroke: #222222!important;
+  stroke: #000!important;
 }
 
 .container {
