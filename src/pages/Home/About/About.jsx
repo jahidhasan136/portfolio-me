@@ -1,4 +1,4 @@
-import me from './images/jahid.png'
+import jahid from './images/jahid.png'
 import { MdOutlineFileDownload } from 'react-icons/md'
 
 const About = () => {
@@ -6,7 +6,7 @@ const About = () => {
         <div className='container mt-[120px]'>
             <div className='flex justify-between items-center'>
                 <div className='bg-[#222222] w-1/4 rounded-lg border-[15px] border-[#222222] hover:bg-black hover:border-black duration-500 transition-all cursor-pointer'>
-                    <img className='border-8 border-black hover:border-[#222222] duration-500 transition-all rounded-md' src={me} alt="" />
+                    <img className='border-8 border-black hover:border-[#222222] duration-500 transition-all rounded-md' src={jahid} alt="" />
                 </div>
                 <div className='w-1/2'>
                     <p className='uppercase tracking-widest text-[#F25714]'>Visit my portfolio & hire me</p>
