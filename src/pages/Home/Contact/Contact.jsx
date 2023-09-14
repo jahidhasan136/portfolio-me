@@ -75,7 +75,7 @@ const Contact = () => {
                         <h3 className='text-lg mb-2 text-[#a7a7a7]'>Message</h3>
                         <textarea cols='70' rows='8' className='w-full text-black px-3 py-2 rounded-md' name="message" />
                     </div>
-                    <input className='bg-black p-3 rounded-md hover:bg-[#F25714] transition-all duration-500 flex justify-center gap-1 hover:-translate-y-1 w-full' type="submit" value="Send" />
+                    <input className='bg-black p-3 rounded-md hover:bg-[#F25714] transition-all duration-500 flex justify-center gap-1 hover:-translate-y-1 w-full cursor-pointer' type="submit" value="Send" />
                 </form>
             </div>
         </div>
