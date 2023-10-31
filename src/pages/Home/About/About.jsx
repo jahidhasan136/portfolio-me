@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className='w-1/2'>
                     <p className='uppercase tracking-widest text-[#F25714]'>Visit my portfolio & hire me</p>
-                    <h2 className='text-[45px] font-bold italic mb-5'>About Me</h2>
+                    <h2 className='text-[45px] font-bold mb-5'>About Me</h2>
                     <h3 className='text-xl mb-3'>A Passionate Front-end Developer and Full Stack Developer</h3>
                     <p className='text-[#a7a7a7] mb-5'>
                         Hi! My name is Jahid Hasan. I&apos;m from Bangladesh. I&apos;m a Full-time professional web developer. I truely believe that your success in my reason to smile. I have great experience in React js, Next js, Redux, Javascript, HTML 5, CSS 3, Bootstrap, Material UI, Tailwind css, Front Awesome, React Router Dom, React Hook Form, MongoDB, and Firebase etc.

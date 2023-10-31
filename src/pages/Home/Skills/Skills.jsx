@@ -18,7 +18,8 @@ import 'react-circular-progressbar/dist/styles.css';
 const Skills = () => {
     return (
         <div className="container mt-[120px] p-5">
-            <h2 className="text-[45px] font-bold italic">Professional Skills</h2>
+            <p className='uppercase tracking-widest text-[#F25714]'>1+ years of experience</p>
+            <h2 className="text-[45px] font-bold">Professional Skills</h2>
             <div className='mt-10 flex justify-between'>
                 <div className='bg-[#222222] w-full flex justify-center py-5 rounded-md'>
                     <div>
@@ -98,21 +99,21 @@ const Skills = () => {
                         <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Soft Skills</h3>
                         <div className='grid grid-cols-2 gap-10'>
                             <div style={{ width: 100 }}>
-                                <CircularProgressbarWithChildren value={66}>
+                                <CircularProgressbarWithChildren value={80}>
                                     <div style={{ fontSize: 12 }}>
                                         <strong>Cretivity</strong>
                                     </div>
                                 </CircularProgressbarWithChildren>
                             </div>
                             <div style={{ width: 100 }}>
-                                <CircularProgressbarWithChildren value={66}>
+                                <CircularProgressbarWithChildren value={90}>
                                     <div style={{ fontSize: 12 }}>
                                         <strong>Teamwork</strong>
                                     </div>
                                 </CircularProgressbarWithChildren>
                             </div>
                             <div style={{ width: 100 }}>
-                                <CircularProgressbarWithChildren value={66}>
+                                <CircularProgressbarWithChildren value={95}>
                                     <div style={{ fontSize: 12 }}>
                                         <strong>Interpersonal</strong>
                                     </div>
@@ -122,9 +123,9 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className='border border-[#000]'></div>
-            <div className='mt-0'>
-                <div className='flex justify-between mt-10'>
+            <div className='border border-[#000] my-10'></div>
+            <div className=''>
+                <div className='flex justify-between'>
                     <div className='bg-[#222222] w-full flex justify-center py-5 rounded-md'>
                         <div>
                             <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Back-End Technologies</h3>
@@ -162,18 +163,18 @@ const Skills = () => {
                             <h3 className='text-[30px] font-medium mb-10 text-[#a7a7a7]'>Tools</h3>
                             <div className='flex gap-10'>
                                 <div style={{ width: 100 }}>
-                                    <CircularProgressbarWithChildren value={66}>
+                                    <CircularProgressbarWithChildren value={86}>
                                         <img style={{ width: 30, marginBottom: 5 }} src={figma} alt="html" />
                                         <div style={{ fontSize: 12 }}>
-                                            <strong>66%</strong>
+                                            <strong>86%</strong>
                                         </div>
                                     </CircularProgressbarWithChildren>
                                 </div>
                                 <div style={{ width: 100 }}>
-                                    <CircularProgressbarWithChildren value={66}>
+                                    <CircularProgressbarWithChildren value={90}>
                                         <img style={{ width: 30, marginBottom: 5 }} src={github} alt="html" />
                                         <div style={{ fontSize: 12 }}>
-                                            <strong>66%</strong>
+                                            <strong>90%</strong>
                                         </div>
                                     </CircularProgressbarWithChildren>
                                 </div>

@@ -2,26 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #151515;
   color: white;
   height: 100%;
 }
 
-.CircularProgressbar .CircularProgressbar-path{
-  stroke: #F25714!important;
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #F25714 !important;
 }
-.CircularProgressbar .CircularProgressbar-text{
-  fill: #F25714!important;
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #F25714 !important;
 }
-.CircularProgressbar .CircularProgressbar-trail{
-  stroke: #000!important;
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #000 !important;
 }
 
 .container {
-    @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
-  }
+  @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
+}
 
-.offcanvas.active{
-    left: 0;
+.offcanvas.active {
+  left: 0;
+}
+
+.swiper-pagination-bullet {
+  /* opacity: inherit !important; */
+  margin-top: 20px!important;
+  background-color: white !important;
+  padding: 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #F25714 !important;
+  padding: 5px !important;
+}
+
+.swiper-pagination {
+  position: static !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute !important;
+  top: 50px !important;
+  right: 100px !important;
+  color: #F25714 !important;
+  background-color: #222222;
+  padding: 25px 30px !important;
+  border-radius: 5px !important;
+  transition: all!important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #F25714;
+  transition: all!important;
+  transition-duration: 500ms!important;
+  color: white !important;
+}
+
+.swiper-button-prev {
+  position: absolute !important;
+  left: auto !important;
+  right: 200px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
 }
