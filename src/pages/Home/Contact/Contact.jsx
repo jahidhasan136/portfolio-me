@@ -22,6 +22,7 @@ const Contact = () => {
     };
     return (
         <div className="container mt-[120px]">
+            <p className='uppercase tracking-widest text-[#F25714] text-center'>Contact</p>
             <h2 className='text-[55px] font-bold text-center mb-10'>Contact With Me</h2>
             <div className='flex items-center justify-between'>
                 <div className='bg-[#222222] p-8 rounded-xl transition-all'>
